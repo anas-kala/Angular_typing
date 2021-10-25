@@ -9,7 +9,6 @@ import { lorem } from 'faker';
 export class AppComponent {
   title = 'type';
   randomText = lorem.sentence();
-  textColor = 'green';
   enteredText = '';
 
   onInput(event: Event) {
